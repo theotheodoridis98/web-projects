@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 25%;
+    margin: 100px auto;
+    background-color: #851b1a;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.inner {
+
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #3881ba;
+    border-radius: 20px;
+    background-color: #fff;
+    min-height: 450px;
+}
+
+.gap {
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.pad-x {
+    padding: 25px;
+}
+
+.text-decor {
+    font-size: 1.1rem;
+}
+
+.pad-y {
+    padding-bottom: 20px;
+}
+
+.form-input {
+    width: 70%;
+    height: 60px;
+    padding-left: 60px;
+    border-radius: 20px;
+}
+
+.btn {
+    width: 60%;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #8fcfec;
+    font-size: 1.2rem;
+}
+
+.text-style {
+    font-size: 1.1rem;
+}
+
+.fa-regular {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+.fa-solid {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(0, 0, 0, 0.8);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment02</title>
+</head>
+
+<body>
+
+    <h1>Φόρμα Πληρωμής</h1>
+
+    <p>Τα υποχρεωτικά πεδία ακολουθούνται απο *.</p>
+    <br>
+
+    <form>
+
+        <h2>Προσωπικά Στοιχεία</h2>
+        <br>
+
+        <fieldset style="width: 100px;">
+            <legend>Title</legend>
+
+
+            <div>
+                <input type="radio" name="title" value="Mr." id="Mr.">
+                <label for="Mr.">Mr.</label>
+            </div>
+
+            <div>
+                <input type="radio" name="title" value="Mrs." id="Mrs.">
+                <label for="Mrs.">Mrs.</label>
+            </div>
+
+            <div>
+                <input type="radio" name="title" value="Dr." id="Dr.">
+                <label for="Dr.">Dr.</label>
+            </div>
+
+        </fieldset>
+        <br>
+
+        <div>
+            <label for="name">Name:<abbr title="Required field">*</abbr></label>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+
+        <div>
+            <label for="email">E-mail<abbr title="Required field">*</abbr></label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password<abbr title="Required field">*</abbr></label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+
+        <h2>Πληροφορίες Πληρωμής</h2>
+        <br>
+
+        <!-- <div>
+            <label for="cardType">Card type:</label>
+            <select name="cardType" id="cardType">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="other">Other</option>
+            </select>
+        </div> -->
+        <br>
+
+        <div>
+            <label for="cardNumber">Card Number:<abbr title="Required field">*</abbr></label>
+            <input type="text" name="cardNumber" id="cardNumber" minlength="16" maxlength="16">
+        </div>
+        <br>
+
+        <div>
+            <label for="expirationDate">Expiration date:<abbr title="Required field">*</abbr></label>
+            <input type="date" name="expirationDate" id="expirationDate">
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Προχωρήστε στην πληρωμή">
+        </div>
+        <br>
+    </form>
+
+</body>
+
+</html>

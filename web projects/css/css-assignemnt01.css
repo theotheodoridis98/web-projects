@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(245, 242, 242);
+}
+
+.header-color {
+    color: rgb(32, 94, 114);
+}
+
+hr {
+    color: rgb(32, 94, 114);
+}
+
+main h3 {
+    color: rgb(99, 94, 94);
+}
+
+.list-style {
+    background-color: rgb(214, 205, 205);
+    border-style: solid;
+    border-color: purple;
+}
+
+.list-style {
+    width: 40%;
+}
+
+.second-section a:link {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.second-section a:visited {
+    color: deeppink;
+}
+
+.second-section a:focus {
+    color: deeppink
+}
+
+.second-section a:active {
+    color: red;
+}
